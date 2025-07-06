@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cend - Connecting You Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Cend</span>
+                <span class="logo-sub">Inc</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#how-to">How To</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">Connecting You Home</h1>
+                    <p class="hero-subtitle">Send money to Ghana quickly, securely, and affordably from Canada</p>
+                    <div class="hero-image-mobile">
+                        <img src="image/Solomon Koomson.JPG" alt="Happy user making a transfer" class="hero-user-image">
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-screen">
+                                <div class="app-ui">
+                                    <div class="app-header">
+                                        <div class="profile-section">
+                                            <img src="image/Solomon Koomson.JPG" alt="User profile" class="profile-img">
+                                            <span class="profile-name">Solomon</span>
+                                        </div>
+                                        <div class="balance">₵940.00</div>
+                                    </div>
+                                    <div class="app-actions">
+                                        <div class="action-btn">Send</div>
+                                        <div class="action-btn">Receive</div>
+                                        <div class="action-btn">Top up</div>
+                                        <div class="action-btn">History</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Offer Section -->
+    <section class="featured-offer">
+        <div class="offer-container">
+            <div class="offer-content">
+                <div class="offer-left">
+                    <div class="offer-badge">New customer offer</div>
+                    <h2 class="offer-title">Send money to Ghana from Canada</h2>
+                    <p class="offer-subtitle">Enjoy a special exchange rate and zero fees on your first transfer, and no fees on all transfers</p>
+                </div>
+                <div class="offer-right">
+                    <div class="converter-card">
+                        <div class="converter-header">
+                            <h3>You send</h3>
+                        </div>
+                        <div class="amount-input">
+                            <input type="number" value="100.00" id="cadAmount">
+                            <span class="currency">CAD</span>
+                        </div>
+                        <div class="converter-divider">
+                            <span>Or select an amount</span>
+                        </div>
+                        <div class="amount-buttons">
+                            <button class="amount-btn">$200</button>
+                            <button class="amount-btn">$500</button>
+                            <button class="amount-btn">$1,000</button>
+                        </div>
+                        <div class="converter-header">
+                            <h3>They receive</h3>
+                        </div>
+                        <div class="amount-output">
+                            <span class="output-amount" id="ghsAmount">748.00</span>
+                            <span class="currency">GHS</span>
+                        </div>
+                        <div class="exchange-info">
+                            <p>Exchange rate: 1 CAD = 7.48 GHS</p>
+                        </div>
+                        <div class="fee-info">
+                            <div class="fee-row">
+                                <span>Fee</span>
+                                <span>Zero fees</span>
+                            </div>
+                            <div class="fee-row total">
+                                <span>Total cost</span>
+                                <span>100.00 CAD</span>
+                            </div>
+                        </div>
+                        <button class="cta-button">Get this rate</button>
+                        <div class="mobile-money-services">
+                            <span>Supported services:</span>
+                            <div class="service-logos">
+                                <span class="service-logo vodafone">Vodafone</span>
+                                <span class="service-logo mtn">MTN</span>
+                                <span class="service-logo airteltigo">AirtelTigo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Section -->
+    <section class="how-to" id="how-to">
+        <div class="how-to-container">
+            <h2 class="section-title">How To</h2>
+            <div class="how-to-content">
+                <div class="how-to-left">
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Create an account</h3>
+                                <p>This is simple. Just sign up using your email address on our app or website. And keep things secure by choosing a strong password.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>We'll verify your details</h3>
+                                <p>For even better security, we'll verify who you are. But this should only take a few minutes.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Start your transfer</h3>
+                                <p>Select the receive country and method, and enter the amount you want to send. Our fees and exchange rates are shown upfront.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Enter your receiver's details</h3>
+                                <p>Have your receiver's details to hand. These may vary depending on how you're sending them the money.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h3>Pay for your transfer</h3>
+                                <p>Choose how you'd like to pay for your transfer: bank deposit, credit or debit card.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="how-to-right">
+                    <img src="image/Gemini_Generated_SendMoney.png" alt="Happy user using mobile app" class="how-to-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Home</h3>
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li><a href="#">Customer Complaints</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Countries</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cend, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<!--Link to Javascript file-->
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
